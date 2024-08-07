@@ -8,6 +8,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
+from pydantic import ValidationError  # Import ValidationError
 import logging
 
 # Configure logging
