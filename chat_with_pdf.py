@@ -9,10 +9,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI # used for vector embe
 from langchain.chains.question_answering import load_qa_chain #helps us to do the chat
 from langchain.prompts import PromptTemplate # to give prompts
 from dotenv import load_dotenv
-GOOGLE_API_KEY='AIzaSyBfv3Jx30PKhyBvet479WSGuwWVkq-_66Y'
+
 load_dotenv()
-os.getenv(GOOGLE_API_KEY)
-genai.configure(GOOGLE_API_KEY)
+
+genai.configure('AIzaSyBfv3Jx30PKhyBvet479WSGuwWVkq-_66Y')
 
 
 
