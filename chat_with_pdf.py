@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Configure the genai library
-genai.configure(api_key='AIzaSyBfv3Jx30PKhyBvet479WSGuwWVkq-_66Y')
+genai.configure(api_key=)
 
 # Function to extract text from PDF files
 def get_pdf_text(pdf_docs):
